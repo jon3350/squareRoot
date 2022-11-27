@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.parent {
+    background-color: green;
+    position: relative;
+    width: 100vw;
+    height: 20rem;
+}
+
+.welcome {
+    background-color: blue;
+    position: absolute;
+    width: 100vw;
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+.input-form {
+    background-color: yellow;
+    position: absolute;
+    width: 100vw;
+    height: 3rem;
+    font-size: 1.2rem;
+    top: 2rem;
+}
+
+.answer-display {
+    background-color: orange;
+    position: absolute;
+    width: 100vw;
+    height: 3rem;
+    font-size: 1.2rem;
+    top: 5rem
+}
+
+.history {
+    background-color: purple;
+    position: absolute;
+    width: 100vw;
+    height: 8rem;
+    font-size: 1.2rem;
+    top: 8rem
+}
+
+#submitBtn:hover {
+    background-color: aqua;
+}
